@@ -1,38 +1,133 @@
-.App {
+.App{
+  width:100%;
+  min-height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login{
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 25% !important;
+}
+
+input{
+  padding: 5%;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 0.4rem 0;
+  width: 90%;
+}
+
+.btn{
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0.25rem;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 13px;
+  width: auto;
+  display: block;
+  text-decoration: none;
+}
+
+.btn3{
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0.25rem;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 13px;
+  width: 50%;
+  display: block;
+  text-decoration: none;
+}
+
+.btn2{
+  background-color: white;
+  color: black;
+  padding: 0.5rem 0.25rem;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid black;
+  font-size: 13px;
+  width: 50%;
+  display: block;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.btn1{
+  background-color: red;
+  color: white;
+  padding: 0.5rem 0.25rem;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.dont{
+  color: blue;
+  font-size: 12px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.or{
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  margin: 0.5rem 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.but{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.but1{
+  width: 40%;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  font-size: 13px;
+  color: gray;
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+  margin-top: 2rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.App>div{
+  width: 60%;
 }
